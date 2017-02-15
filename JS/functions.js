@@ -1,9 +1,6 @@
 function myFunction() {
   var firstname=document.getElementById("t1");
   var lastname=document.getElementById("t2");
-  var radio1=document.getElementById("r0");
-  var radio2=document.getElementById("r1");
-  var radio3=document.getElementById("r2");
   var output=document.getElementById("output");
   var x=isRadioChecked();
   if(firstname.value=='') {
